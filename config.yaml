@@ -1,0 +1,17 @@
+fgg_price_mongo:
+    host: '192.168.0.235'
+    port: 27017
+    db: 'fgg'
+    coll_fanggugu_price: 'fanggugu_price'
+    coll_fanggugu_price_update: 'fanggugu_price_update'
+    coll_user_info: 'user_info'
+    coll_login: 'login'
+
+fgg_price_rabbit:
+    host: '192.168.0.190'
+    port: 5673
+comm_price:
+    host: '192.168.0.235'
+    port: 27017
+    db: 'comm_price'
+    fgg_coll: 'fgg'
